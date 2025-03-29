@@ -1,0 +1,15 @@
+@layer utilities {
+  /* .clip-landscape {
+    clip-path: url(#clip-landscape);
+    aspect-ratio: 1.5;
+    object-fit: cover;
+  } */
+
+  .clip-heading {
+    clip-path: polygon(0% 0%, 95% 2%, 99% 100%, 0% 95%);
+  }
+
+  .clip-button {
+    clip-path: polygon(1% 6%, 97% 0%, 100% 100%, 1% 92%);
+  }
+}
