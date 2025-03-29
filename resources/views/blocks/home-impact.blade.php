@@ -47,7 +47,7 @@
 
             <!-- Description -->
             <p class="mx-auto max-w-xs text-lg">
-              Of schools across Leeds have been helped with our School Uniform Exchange.
+              {{ $impact['description'] ?? '' }}
             </p>
           </div>
         @endforeach

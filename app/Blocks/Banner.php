@@ -166,7 +166,7 @@ class Banner extends Block
     public function with(): array
     {
         return [
-            'heading' => nl2br(get_field('heading')),
+            'heading' => get_field('heading'),
             'subheading' => get_field('subheading'),
             'body' => get_field('body'),
             'link' => get_field('link'),
