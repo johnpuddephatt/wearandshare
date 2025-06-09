@@ -1,8 +1,7 @@
 /* Contact Form 7 - Square Black Border Styles */
 
 .wp-block-contact-form-7-contact-form-selector {
-  @apply py-16 w-full;
-  max-width: none !important;
+  @apply py-16;
 }
 
 .wp-block-hero + .wp-block-contact-form-7-contact-form-selector {
