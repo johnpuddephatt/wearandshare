@@ -20,7 +20,7 @@ class ProjectImage extends Field
                 'return_format' => 'id',
                 'required' => true,
             ]);
-
+            
         return $fields->build();
     }
 }
